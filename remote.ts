@@ -13,7 +13,6 @@ namespace remote {
         processing: boolean = false
         connections: Connection[] = [];
         connectSerial: ConnectionSerial = undefined
-        connectBluetooth: Connection = undefined
         constructor() {
         }
     }
