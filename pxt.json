@@ -1,17 +1,12 @@
 {
     "name": "remote",
-    "description": "",
+    "description": "remote",
     "dependencies": {
-        "core": "*",
-        "microphone": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
-        "remote.ts",
-        "test.ts"
+        "remote.ts"
     ],
     "testFiles": [
         "test.ts"

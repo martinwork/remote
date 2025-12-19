@@ -1,1 +1,4 @@
-// Add your code here
+remote.onLine(function (line) {
+    remote.sendString("echo " + line)
+})
+remote.useSerial()
